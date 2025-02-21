@@ -7,7 +7,7 @@ export default function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/asteroid/2024%20YR4")
+    fetch("https://yr2024.onrender.com/api/asteroid/2024%20YR4")
       .then((response) => response.json())
       .then((data) => {
         if (data.summary && data.summary.ip) {
