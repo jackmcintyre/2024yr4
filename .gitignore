@@ -1,14 +1,13 @@
-# Node dependencies
+# Backend Ignore
 node_modules/
 package-lock.json
-
-# Logs
-*.log
-
-# Environment Variables
 .env
-
-# OS-specific files
 .DS_Store
-Thumbs.db
+
+# Frontend Ignore (Fixing issue)
+client/node_modules/
+client/package-lock.json
+client/build/
+client/dist/
+client/.DS_Store
 
