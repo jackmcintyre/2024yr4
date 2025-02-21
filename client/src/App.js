@@ -24,7 +24,7 @@ export default function App() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#0a1f44] text-white">
       <div className="p-8 bg-gray-900 rounded-2xl shadow-2xl text-center border border-gray-700">
-        <h1 className="text-3xl font-bold mb-6 uppercase tracking-wide text-gray-300">Asteroid Impact Probability</h1>
+        <h1 className="text-3xl font-bold mb-6 uppercase tracking-wide text-gray-300">2024 YR4 Impact Probability</h1>
         {loading ? (
           <Loader className="animate-spin mx-auto" size={48} />
         ) : error ? (
